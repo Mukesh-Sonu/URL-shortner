@@ -7,8 +7,6 @@ import { deleteUrl } from '@/db/apiUrls';
 import Error from '@/components/ui/error';
 
 const LinkCard = ({ url, fetchUrls }) => {
-  console.log(url, 'jsdj');
-
   const {
     error: errorDelete,
     loading: loadingDelete,

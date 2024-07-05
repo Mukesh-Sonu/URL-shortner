@@ -67,7 +67,6 @@ const CreateLink = () => {
     try {
       await schema.validate(formValues, { abortEarly: false });
       const canvas = ref.current.canvasRef.current;
-      console.log(canvas, 'canvascanvas');
       const blob = await new Promise((resolve) => canvas.toBlob(resolve));
 
       await fnCreateUrl(blob);

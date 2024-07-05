@@ -1,4 +1,5 @@
-import { getLongUrl, storeClicks } from '@/db/apiUrls';
+import { getLongUrl } from '@/db/apiUrls';
+import { storeClicks } from '@/db/apiClicks';
 import { BarLoader } from 'react-spinners';
 import useFetch from '@/hooks/use-fetch';
 import { useEffect } from 'react';
