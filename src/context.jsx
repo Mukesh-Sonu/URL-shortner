@@ -8,7 +8,6 @@ const UrlProvider = ({ children }) => {
   const { data: user, loading, fn: fetchUser } = useFetch(getCurrentUser);
 
   const isAuthenticated = user?.role === 'authenticated';
-  console.log(user, "user")
 
   useEffect(() => {
     fetchUser();
