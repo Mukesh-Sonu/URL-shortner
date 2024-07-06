@@ -117,7 +117,7 @@ const CreateLink = () => {
         {errors.longUrl && <Error message={errors.longUrl} />}
 
         <div className="flex items-center gap-2">
-          <Card className="P-2">trimmer.in</Card> /
+          <Card className="P-2">url-chunk.netlify.app</Card> /
           <Input
             id="customUrl"
             placeholder="Custom Link (optional)"
